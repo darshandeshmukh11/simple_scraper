@@ -19,6 +19,7 @@ $ pip install scrapy
 
 $ scrapy crawl crawltest
 ``` 
-Limitations - 
+Limitations/Pending things - 
 - Does not output the links from other domains like google.com, facebook.com OR CDN domain
 - Does not iterate and stores the links grabbed from the current page
+- Does not follow relative links for pages as a result the urls are missing from relative pages
